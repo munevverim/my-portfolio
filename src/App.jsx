@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import './app.css';
+import './App.css';
 
 export default function App({ toggleTheme, currentTheme }) {
   return (
