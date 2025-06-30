@@ -1,0 +1,28 @@
+// src/components/ProjectCard.module.scss
+
+@use "sass:color";
+
+$primary: #805ad5;
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: box-shadow 0.2s, transform 0.2s;
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    /* darken($primary, 10%) yerine: */
+    background: color.adjust($primary, $lightness: -10%);
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: $primary;
+    margin-bottom: 0.5rem;
+  }
+  /* …diğer stiller… */
+}
