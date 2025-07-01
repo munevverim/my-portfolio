@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "title": "Meditation App",
+    "description": "Flutter ile geliştirilmiş bir meditasyon uygulaması. Kullanıcılar rehberli meditasyon seansları seçebiliyor, seans sürelerini ayarlayabiliyor ve favori sesleri saklayabiliyor. Uygulamada: - Firebase Authentication ile kullanıcı girişi - Cloud Firestore’da kullanıcı tercihleri ve geçmiş seans verilerinin saklanması - Flutter Sound paketinde ambiyans sesleri - Push bildirimleri ile günlük hatırlatıcılar entegre edildi.",
+    "url": "https://github.com/munevverim/meditasyon",
+    "techStack": [
+      "Flutter",
+      "Dart",
+      "Firebase Auth",
+      "Cloud Firestore",
+      "Flutter Sound",
+      "Local Notifications"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "GymLive",
+    "description": "Next.js ve React kullanılarak geliştirilen GymLive; canlı fitness dersleri ve antrenman programları ile dahili bir market bölümü sunan platform. Özellikler: - Ürün listeleme, kategori filtresi ve anahtar kelime araması - Sepet işlevselliği ve ödeme entegrasyonu (Stripe) - Prisma ORM ve MySQL ile backend yönetimi",
+    "url": "https://play.google.com/store/apps/details?id=com.asi.gymlive&hl=tr",
+    "techStack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Prisma",
+      "MySQL",
+      "Stripe API",
+      "Tailwind CSS",
+      "SWR"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Müzik Uygulaması",
+    "description": "Haftalık, aylık, 6‑ay ve yıllık abonelik modelleri sunan, reklam destekli ses dinleme ve şarkı sözleri/favori listeleri özelliğine sahip bir mobil müzik uygulaması. Backend’de Node.js ve MySQL, frontend’de Flutter kullanıldı. Ayrıca: - Firebase ile kullanıcı yönetimi ve push bildirimler - REST API tasarımı ve optimizasyon - Ödeme işlemleri entegrasyonu",
+    "url": "https://github.com/yourusername/music-app",
+    "techStack": [
+      "Flutter",
+      "Dart",
+      "Node.js",
+      "MySQL",
+      "Firebase",
+      "REST API"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Enmod E‑Commerce Uygulaması",
+    "description": "Flutter ile geliştirilmiş WooCommerce tabanlı bir e‑ticaret uygulaması. Ürünleri WooCommerce REST API’dan çekiyor, kategori filtreleme, ürün arama ve detay sayfası gibi tüm temel e‑ticaret özelliklerini sunuyor. Sağlam durum yönetimi için Provider, API istekleri için HTTP paketi kullanıldı.",
+    "url": "https://github.com/munevverim/enmod-app",
+    "techStack": [
+      "Flutter",
+      "Dart",
+      "WooCommerce REST API",
+      "Provider",
+      "HTTP"
+    ]
+  }
+]
